@@ -1,11 +1,11 @@
 body{
-  background-color: #fdcb7c;
+  background-color: rgb(52, 52, 160);
   font: normal 15pt Arial;
 }
 
 header{
   color: white;
-    text-align: center;
+   text-align: center;
 }
 
 section{
@@ -18,7 +18,6 @@ section{
 }
 
 div{
-  text-align: center;
   padding: 8px;
 }
 
