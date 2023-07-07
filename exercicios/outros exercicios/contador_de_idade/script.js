@@ -26,7 +26,7 @@ function verificar() {
       } else if (idade >=21 && idade < 35){
         //adulto 1 
         img.setAttribute('src', './imagens/adulto2_homem.png')
-      } else if (idade < 50){
+      } else if (idade < 60){
         // adulto
         img.setAttribute('src', './imagens/adulto_homem.png')
       } else {
@@ -49,7 +49,7 @@ function verificar() {
       } else if (idade >=21 && idade < 35){
         //adulto 1 
         img.setAttribute('src', './imagens/adulta2_mulher.png')
-      } else if (idade < 50){
+      } else if (idade < 60){
         // adulto
         img.setAttribute('src', './imagens/adulta_mulher.png')
       } else {
