@@ -4,7 +4,7 @@ let res = document.querySelector('div#res')
 let valores = []
 
 function isNumero(n) {
-  if(Number(n) >= 1 && Number(n) <= 100) {
+  if (Number(n) >= 1 && Number(n) <= 100) {
     return true
   } else {
     return false
@@ -21,8 +21,8 @@ function isLista(n, l) {
 
 }
 
-function adicionar(){
-  if(isNumero(num.value) && !islista(num.value, valores)) {
+function adicionar() {
+  if (isNumero(num.value) && !isLista(num.value, valores)) {
     valores.push(Number(num.value))
     let item = document.createElement('option')
     item.text = `Valor ${num.value} adicionado.`
@@ -41,12 +41,12 @@ function finalizar() {
     let tot = valores.length
     let maior = valores[0]
     let menor = valores[0]
-    for(let pos in valores) {
+    for (let pos in valores) {
       if (valores[pos] > maior)
-          maior      
-      
+        maior
+
     }
     res.innerHTML = ''
-    res.innerHTML =+ `<p>Ao todo, temos ${tot} números cadastrados.</p>`
+    res.innerHTML = + `<p>Ao todo, temos ${tot} números cadastrados.</p>`
   }
 }
